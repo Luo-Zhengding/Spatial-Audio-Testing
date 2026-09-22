@@ -12,7 +12,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav"
+        "audio/q001_a.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -26,7 +26,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav"
+        "audio/q002_a.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -41,8 +41,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav",
-        "audio/q003_b.wav"
+        "audio/q003_a.wav?v=596de9968796",
+        "audio/q003_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -57,8 +57,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q004_a.wav",
-        "audio/q004_b.wav"
+        "audio/q004_a.wav?v=596de9968796",
+        "audio/q004_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -73,8 +73,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav",
-        "audio/q005_b.wav"
+        "audio/q005_a.wav?v=596de9968796",
+        "audio/q005_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -89,8 +89,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav",
-        "audio/q006_b.wav"
+        "audio/q006_a.wav?v=596de9968796",
+        "audio/q006_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -104,8 +104,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav",
-        "audio/q007_b.wav"
+        "audio/q007_a.wav?v=596de9968796",
+        "audio/q007_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -119,8 +119,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav",
-        "audio/q008_b.wav"
+        "audio/q008_a.wav?v=596de9968796",
+        "audio/q008_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -134,7 +134,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav"
+        "audio/q009_a.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -148,7 +148,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav"
+        "audio/q010_a.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -162,8 +162,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav",
-        "audio/q011_b.wav"
+        "audio/q011_a.wav?v=596de9968796",
+        "audio/q011_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -177,8 +177,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q012_a.wav",
-        "audio/q012_b.wav"
+        "audio/q012_a.wav?v=596de9968796",
+        "audio/q012_b.wav?v=596de9968796"
       ],
       "timeline": []
     },
@@ -198,7 +198,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav"
+        "audio/q013_a.wav?v=596de9968796"
       ],
       "timeline": [
         {
@@ -249,7 +249,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav"
+        "audio/q014_a.wav?v=596de9968796"
       ],
       "timeline": [
         {
