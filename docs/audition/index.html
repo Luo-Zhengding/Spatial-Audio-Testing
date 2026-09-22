@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>AudioWorldSim Spatial Audio Quiz</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
   <header class="hero">
@@ -13,11 +13,15 @@
       <p class="eyebrow">AudioWorldSim Benchmark</p>
       <h1 id="quiz-title">Spatial Audio Quiz</h1>
       <div class="headphone-notice">
-        <span class="headphone-icon" aria-hidden="true">🎧</span>
         <p>
           <strong>Headphones are required.</strong><br>
           Without headphones, binaural spatial cues cannot be heard reliably.
         </p>
+        <svg class="headphone-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 15v-3a8 8 0 0 1 16 0v3"/>
+          <path d="M18 19a2 2 0 0 1-2 2h-1v-6h3a2 2 0 0 1 2 2v2z"/>
+          <path d="M6 19a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2v2z"/>
+        </svg>
       </div>
       <p class="intro">
         Listen to every clip and select one answer per question. Your score and

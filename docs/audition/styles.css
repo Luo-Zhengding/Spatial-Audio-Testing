@@ -60,11 +60,12 @@ h1 {
 
 .headphone-notice {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 2rem;
   align-items: center;
-  max-width: 680px;
+  width: 100%;
   margin-top: 1.5rem;
-  padding: 1rem 1.2rem;
+  padding: 1.1rem 1.4rem;
   border: 1px solid rgba(191, 219, 254, 0.45);
   border-radius: 0.8rem;
   color: #eff6ff;
@@ -73,12 +74,19 @@ h1 {
 
 .headphone-notice p {
   margin: 0;
+  font-size: 1.08rem;
 }
 
 .headphone-icon {
+  width: clamp(6rem, 13vw, 9rem);
+  height: auto;
   flex: 0 0 auto;
-  font-size: 2.2rem;
-  line-height: 1;
+  fill: none;
+  stroke: #bfdbfe;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 8px 18px rgba(59, 130, 246, 0.3));
 }
 
 .intro {
@@ -341,6 +349,15 @@ footer {
   .status-bar {
     grid-template-columns: 1fr;
     gap: 0.45rem;
+  }
+
+  .headphone-notice {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .headphone-icon {
+    width: 5rem;
   }
 
   .audio-row {
