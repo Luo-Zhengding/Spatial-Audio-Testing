@@ -12,7 +12,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=eeffe70e5a60"
+        "audio/q001_a.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
@@ -26,7 +26,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav?v=eeffe70e5a60"
+        "audio/q002_a.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
@@ -41,8 +41,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav?v=eeffe70e5a60",
-        "audio/q003_b.wav?v=eeffe70e5a60"
+        "audio/q003_a.wav?v=2cd8aa2cc742",
+        "audio/q003_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
@@ -57,8 +57,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q004_a.wav?v=eeffe70e5a60",
-        "audio/q004_b.wav?v=eeffe70e5a60"
+        "audio/q004_a.wav?v=2cd8aa2cc742",
+        "audio/q004_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
@@ -73,8 +73,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav?v=eeffe70e5a60",
-        "audio/q005_b.wav?v=eeffe70e5a60"
+        "audio/q005_a.wav?v=2cd8aa2cc742",
+        "audio/q005_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
@@ -89,96 +89,96 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav?v=eeffe70e5a60",
-        "audio/q006_b.wav?v=eeffe70e5a60"
+        "audio/q006_a.wav?v=2cd8aa2cc742",
+        "audio/q006_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
     {
       "id": "q007",
       "type": "T2",
-      "question": "You hear a stationary sound, then you turn 60 degrees to your left without walking, and hear it again. The source itself never moved — only your facing did, so its direction relative to your nose has changed. Compared with the first recording, is it now further to your left or further to your right?",
+      "question": "Recording A was made before you turned. You then turned 60 degrees to your left without walking, while the source stayed fixed. Recording B was made after you turned. In Recording B, is the source farther to your left or farther to your right than in Recording A?",
       "options": [
         "further to your left than before",
         "further to your right than before"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav?v=eeffe70e5a60",
-        "audio/q007_b.wav?v=eeffe70e5a60"
+        "audio/q007_a.wav?v=2cd8aa2cc742",
+        "audio/q007_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
     {
       "id": "q008",
       "type": "T2",
-      "question": "You hear a stationary sound, then you turn 60 degrees to your right without walking, and hear it again. The source itself never moved — only your facing did, so its direction relative to your nose has changed. Compared with the first recording, is it now further to your left or further to your right?",
+      "question": "Recording A was made before you turned. You then turned 60 degrees to your right without walking, while the source stayed fixed. Recording B was made after you turned. In Recording B, is the source farther to your left or farther to your right than in Recording A?",
       "options": [
         "further to your left than before",
         "further to your right than before"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav?v=eeffe70e5a60",
-        "audio/q008_b.wav?v=eeffe70e5a60"
+        "audio/q008_a.wav?v=2cd8aa2cc742",
+        "audio/q008_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
     {
       "id": "q009",
       "type": "T2_fb",
-      "question": "Before you turned, one stationary sound source was either directly in front of you or directly behind you. The source stayed fixed in the room while you turned 30 degrees to your left without walking. You hear only the recording made after the turn. Where was the source before you turned?",
+      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your left without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
       "options": [
         "in front of you before the turn",
         "behind you before the turn"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=eeffe70e5a60"
+        "audio/q009_a.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
     {
       "id": "q010",
       "type": "T2_fb",
-      "question": "Before you turned, one stationary sound source was either directly in front of you or directly behind you. The source stayed fixed in the room while you turned 30 degrees to your right without walking. You hear only the recording made after the turn. Where was the source before you turned?",
+      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your right without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
       "options": [
         "in front of you before the turn",
         "behind you before the turn"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=eeffe70e5a60"
+        "audio/q010_a.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
     {
       "id": "q011",
       "type": "T2_translation",
-      "question": "You hear a stationary sound source, then keep the same facing and move 1.50 metres backward, and hear it again. The source itself stayed fixed in the room. Compared with before your movement, is the source now closer or farther away?",
+      "question": "Recording A was made before you moved. You then kept the same facing and moved 1.50 metres backward. Recording B was made after the move. The source stayed fixed in the room. In Recording B, is the source closer or farther away than in Recording A?",
       "options": [
         "the source is closer than before",
         "the source is farther away than before"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav?v=eeffe70e5a60",
-        "audio/q011_b.wav?v=eeffe70e5a60"
+        "audio/q011_a.wav?v=2cd8aa2cc742",
+        "audio/q011_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
     {
       "id": "q012",
       "type": "T2_translation",
-      "question": "You hear a stationary sound source, then keep the same facing and move 1.50 metres forward, and hear it again. The source itself stayed fixed in the room. Compared with before your movement, is the source now closer or farther away?",
+      "question": "Recording A was made before you moved. You then kept the same facing and moved 1.50 metres forward. Recording B was made after the move. The source stayed fixed in the room. In Recording B, is the source closer or farther away than in Recording A?",
       "options": [
         "the source is closer than before",
         "the source is farther away than before"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q012_a.wav?v=eeffe70e5a60",
-        "audio/q012_b.wav?v=eeffe70e5a60"
+        "audio/q012_a.wav?v=2cd8aa2cc742",
+        "audio/q012_b.wav?v=2cd8aa2cc742"
       ],
       "timeline": []
     },
@@ -198,7 +198,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav?v=eeffe70e5a60"
+        "audio/q013_a.wav?v=2cd8aa2cc742"
       ],
       "timeline": [
         {
@@ -249,7 +249,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav?v=eeffe70e5a60"
+        "audio/q014_a.wav?v=2cd8aa2cc742"
       ],
       "timeline": [
         {
