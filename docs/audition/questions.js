@@ -252,7 +252,7 @@ window.AUDITION_DATA = {
         {
           "start": 4.0,
           "end": 7.0,
-          "label": "Move 1.4 m forward",
+          "label": "Move 1.2 m forward",
           "kind": "action"
         },
         {
