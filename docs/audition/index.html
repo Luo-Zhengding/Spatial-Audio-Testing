@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>AudioWorldSim Spatial Audio Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">AudioWorldSim Benchmark</p>
+      <h1 id="quiz-title">Spatial Audio Quiz</h1>
+      <p class="intro">
+        Wear headphones, listen to every clip, and select one answer per question.
+        Your score and the correct answers appear after submission.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section class="status-bar" aria-label="Quiz progress">
+      <span id="progress">0 of 0 answered</span>
+      <div class="progress-track" aria-hidden="true">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+    </section>
+
+    <div id="error" class="notice notice--error" role="alert" hidden></div>
+    <div id="questions" class="questions"></div>
+
+    <section class="submit-panel">
+      <button id="submit-button" class="button button--primary" type="button">
+        Submit answers
+      </button>
+      <button id="reset-button" class="button button--secondary" type="button" hidden>
+        Try again
+      </button>
+      <div id="result" class="result" role="status" aria-live="polite" hidden></div>
+    </section>
+  </main>
+
+  <footer>
+    Generated from the AudioWorldSim spatial-audio benchmark.
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
