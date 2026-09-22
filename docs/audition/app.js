@@ -51,12 +51,27 @@
         <span>${escapeHtml(option)}</span>
       </label>`).join("");
 
+    const timeline = (question.timeline || []).length
+      ? `<div class="timeline" aria-label="Motion timeline">
+          ${question.timeline.map((stage) => {
+            const duration = Math.max(0.1, Number(stage.end) - Number(stage.start));
+            return `
+              <div class="timeline-stage timeline-stage--${escapeHtml(stage.kind)}"
+                   style="--duration: ${duration}">
+                <span>${Number(stage.start).toFixed(1)}–${Number(stage.end).toFixed(1)} s</span>
+                <strong>${escapeHtml(stage.label)}</strong>
+              </div>`;
+          }).join("")}
+        </div>`
+      : "";
+
     card.innerHTML = `
       <div class="question-meta">
         <span>Question ${questionIndex + 1}</span>
         <span class="type-badge">${escapeHtml(question.type)}</span>
       </div>
       <h2>${escapeHtml(question.question)}</h2>
+      ${timeline}
       <div class="audio-list">${audioPlayers}</div>
       <fieldset>
         <legend class="sr-only">Choose one answer</legend>

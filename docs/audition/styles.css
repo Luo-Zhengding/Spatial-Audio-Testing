@@ -184,6 +184,45 @@ h2 {
   line-height: 1.5;
 }
 
+.timeline {
+  display: flex;
+  gap: 0.35rem;
+  margin: 0 0 1.35rem;
+}
+
+.timeline-stage {
+  flex: var(--duration) 1 0;
+  display: flex;
+  min-width: 0;
+  min-height: 5.2rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.75rem;
+  border: 1px solid #aac1e5;
+  border-radius: 0.65rem;
+  color: #1e3a8a;
+  background: #eff6ff;
+  text-align: center;
+}
+
+.timeline-stage span {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.timeline-stage strong {
+  margin-top: 0.25rem;
+  font-size: 0.88rem;
+}
+
+.timeline-stage--silence {
+  border-style: dashed;
+  border-color: #cbd5e1;
+  color: #64748b;
+  background: #f8fafc;
+}
+
 .audio-list {
   display: grid;
   gap: 0.75rem;
@@ -354,6 +393,16 @@ footer {
 
   .headphone-icon {
     width: 5rem;
+  }
+
+  .timeline {
+    flex-direction: column;
+  }
+
+  .timeline-stage {
+    min-height: auto;
+    flex-basis: auto;
+    text-align: left;
   }
 
   .audio-row {

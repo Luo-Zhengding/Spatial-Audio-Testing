@@ -13,7 +13,8 @@ window.AUDITION_DATA = {
       "answerIndex": 1,
       "audio": [
         "audio/q001_a.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q002",
@@ -26,7 +27,8 @@ window.AUDITION_DATA = {
       "answerIndex": 1,
       "audio": [
         "audio/q002_a.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q003",
@@ -41,7 +43,8 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q003_a.wav",
         "audio/q003_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q004",
@@ -56,7 +59,8 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q004_a.wav",
         "audio/q004_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q005",
@@ -71,7 +75,8 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q005_a.wav",
         "audio/q005_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q006",
@@ -86,7 +91,8 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q006_a.wav",
         "audio/q006_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q007",
@@ -100,7 +106,8 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q007_a.wav",
         "audio/q007_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q008",
@@ -114,7 +121,8 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q008_a.wav",
         "audio/q008_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q009",
@@ -127,7 +135,8 @@ window.AUDITION_DATA = {
       "answerIndex": 0,
       "audio": [
         "audio/q009_a.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q010",
@@ -140,7 +149,8 @@ window.AUDITION_DATA = {
       "answerIndex": 1,
       "audio": [
         "audio/q010_a.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q011",
@@ -154,12 +164,13 @@ window.AUDITION_DATA = {
       "audio": [
         "audio/q011_a.wav",
         "audio/q011_b.wav"
-      ]
+      ],
+      "timeline": []
     },
     {
       "id": "q012",
       "type": "T3",
-      "question": "A stationary source began either directly in front of or directly behind you. In one continuous recording, you first turned 30 degrees left, then moved 1.4 metres backward, then turned 45 degrees left. The source stayed fixed. The first turn occurs at 0.0-3.0 s, translation at 4.0-7.0 s, and the second turn at 8.0-11.0 s. Audible motion stages are separated by 1.0 s of silence. Report all three states: its initial front/back position, whether translation made it closer/farther, and whether it was finally on your left/right.",
+      "question": "A stationary source began directly in front of or behind you and stayed fixed while you moved. Report its initial front/back position, whether the translation made it closer/farther, and whether it was finally on your left/right.",
       "options": [
         "initially front; after translation closer; finally on the left",
         "initially front; after translation closer; finally on the right",
@@ -173,12 +184,44 @@ window.AUDITION_DATA = {
       "answerIndex": 4,
       "audio": [
         "audio/q012_a.wav"
+      ],
+      "timeline": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "label": "Turn 30° left",
+          "kind": "action"
+        },
+        {
+          "start": 3.0,
+          "end": 4.0,
+          "label": "Silence",
+          "kind": "silence"
+        },
+        {
+          "start": 4.0,
+          "end": 7.0,
+          "label": "Move 1.4 m backward",
+          "kind": "action"
+        },
+        {
+          "start": 7.0,
+          "end": 8.0,
+          "label": "Silence",
+          "kind": "silence"
+        },
+        {
+          "start": 8.0,
+          "end": 11.0,
+          "label": "Turn 45° left",
+          "kind": "action"
+        }
       ]
     },
     {
       "id": "q013",
       "type": "T3",
-      "question": "A stationary source began either directly in front of or directly behind you. In one continuous recording, you first turned 30 degrees left, then moved 1.2 metres forward, then turned 45 degrees left. The source stayed fixed. The first turn occurs at 0.0-3.0 s, translation at 4.0-7.0 s, and the second turn at 8.0-11.0 s. Audible motion stages are separated by 1.0 s of silence. Report all three states: its initial front/back position, whether translation made it closer/farther, and whether it was finally on your left/right.",
+      "question": "A stationary source began directly in front of or behind you and stayed fixed while you moved. Report its initial front/back position, whether the translation made it closer/farther, and whether it was finally on your left/right.",
       "options": [
         "initially front; after translation closer; finally on the left",
         "initially front; after translation closer; finally on the right",
@@ -192,6 +235,38 @@ window.AUDITION_DATA = {
       "answerIndex": 1,
       "audio": [
         "audio/q013_a.wav"
+      ],
+      "timeline": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "label": "Turn 30° left",
+          "kind": "action"
+        },
+        {
+          "start": 3.0,
+          "end": 4.0,
+          "label": "Silence",
+          "kind": "silence"
+        },
+        {
+          "start": 4.0,
+          "end": 7.0,
+          "label": "Move 1.4 m forward",
+          "kind": "action"
+        },
+        {
+          "start": 7.0,
+          "end": 8.0,
+          "label": "Silence",
+          "kind": "silence"
+        },
+        {
+          "start": 8.0,
+          "end": 11.0,
+          "label": "Turn 45° left",
+          "kind": "action"
+        }
       ]
     }
   ]
