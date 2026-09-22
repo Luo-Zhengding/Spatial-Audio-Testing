@@ -12,7 +12,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=e6ecc55b161e"
+        "audio/q001_a.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -26,39 +26,39 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav?v=e6ecc55b161e"
+        "audio/q002_a.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
     {
       "id": "q003",
       "type": "T1_distance",
-      "question": "You hear two recordings of the same sound source at the same direction in the same room. It emitted the same signal at the same power; only its distance may differ. Compared with the first recording, is the source in the second recording closer, farther away, or at the same distance?",
+      "question": "You hear two recordings of the same sound source in the same direction and room, emitted at the same power. Is the source much closer in the first recording, much closer in the second recording, or at about the same distance in both?",
       "options": [
-        "the source is closer in the second recording",
-        "the source is farther away in the second recording",
-        "the source is at the same distance in both recordings"
+        "the source is much closer in the first recording",
+        "the source is much closer in the second recording",
+        "the source is at about the same distance in both recordings"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav?v=e6ecc55b161e",
-        "audio/q003_b.wav?v=e6ecc55b161e"
+        "audio/q003_a.wav?v=eeffe70e5a60",
+        "audio/q003_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
     {
       "id": "q004",
       "type": "T1_distance",
-      "question": "You hear two recordings of the same sound source at the same direction in the same room. It emitted the same signal at the same power; only its distance may differ. Compared with the first recording, is the source in the second recording closer, farther away, or at the same distance?",
+      "question": "You hear two recordings of the same sound source in the same direction and room, emitted at the same power. Is the source much closer in the first recording, much closer in the second recording, or at about the same distance in both?",
       "options": [
-        "the source is closer in the second recording",
-        "the source is farther away in the second recording",
-        "the source is at the same distance in both recordings"
+        "the source is much closer in the first recording",
+        "the source is much closer in the second recording",
+        "the source is at about the same distance in both recordings"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "audio": [
-        "audio/q004_a.wav?v=e6ecc55b161e",
-        "audio/q004_b.wav?v=e6ecc55b161e"
+        "audio/q004_a.wav?v=eeffe70e5a60",
+        "audio/q004_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -73,8 +73,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav?v=e6ecc55b161e",
-        "audio/q005_b.wav?v=e6ecc55b161e"
+        "audio/q005_a.wav?v=eeffe70e5a60",
+        "audio/q005_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -89,8 +89,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav?v=e6ecc55b161e",
-        "audio/q006_b.wav?v=e6ecc55b161e"
+        "audio/q006_a.wav?v=eeffe70e5a60",
+        "audio/q006_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -104,8 +104,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav?v=e6ecc55b161e",
-        "audio/q007_b.wav?v=e6ecc55b161e"
+        "audio/q007_a.wav?v=eeffe70e5a60",
+        "audio/q007_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -119,8 +119,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav?v=e6ecc55b161e",
-        "audio/q008_b.wav?v=e6ecc55b161e"
+        "audio/q008_a.wav?v=eeffe70e5a60",
+        "audio/q008_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -134,7 +134,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=e6ecc55b161e"
+        "audio/q009_a.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -148,7 +148,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=e6ecc55b161e"
+        "audio/q010_a.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -162,8 +162,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav?v=e6ecc55b161e",
-        "audio/q011_b.wav?v=e6ecc55b161e"
+        "audio/q011_a.wav?v=eeffe70e5a60",
+        "audio/q011_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -177,8 +177,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q012_a.wav?v=e6ecc55b161e",
-        "audio/q012_b.wav?v=e6ecc55b161e"
+        "audio/q012_a.wav?v=eeffe70e5a60",
+        "audio/q012_b.wav?v=eeffe70e5a60"
       ],
       "timeline": []
     },
@@ -198,7 +198,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav?v=e6ecc55b161e"
+        "audio/q013_a.wav?v=eeffe70e5a60"
       ],
       "timeline": [
         {
@@ -249,7 +249,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav?v=e6ecc55b161e"
+        "audio/q014_a.wav?v=eeffe70e5a60"
       ],
       "timeline": [
         {
