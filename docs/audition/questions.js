@@ -12,7 +12,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=596de9968796"
+        "audio/q001_a.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -26,7 +26,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav?v=596de9968796"
+        "audio/q002_a.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -41,8 +41,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav?v=596de9968796",
-        "audio/q003_b.wav?v=596de9968796"
+        "audio/q003_a.wav?v=e6ecc55b161e",
+        "audio/q003_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -57,8 +57,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q004_a.wav?v=596de9968796",
-        "audio/q004_b.wav?v=596de9968796"
+        "audio/q004_a.wav?v=e6ecc55b161e",
+        "audio/q004_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -73,8 +73,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav?v=596de9968796",
-        "audio/q005_b.wav?v=596de9968796"
+        "audio/q005_a.wav?v=e6ecc55b161e",
+        "audio/q005_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -89,8 +89,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav?v=596de9968796",
-        "audio/q006_b.wav?v=596de9968796"
+        "audio/q006_a.wav?v=e6ecc55b161e",
+        "audio/q006_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -104,8 +104,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav?v=596de9968796",
-        "audio/q007_b.wav?v=596de9968796"
+        "audio/q007_a.wav?v=e6ecc55b161e",
+        "audio/q007_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -119,8 +119,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav?v=596de9968796",
-        "audio/q008_b.wav?v=596de9968796"
+        "audio/q008_a.wav?v=e6ecc55b161e",
+        "audio/q008_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -134,7 +134,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=596de9968796"
+        "audio/q009_a.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -148,37 +148,37 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=596de9968796"
+        "audio/q010_a.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
     {
       "id": "q011",
       "type": "T2_translation",
-      "question": "You hear a stationary sound source, then keep the same facing and move 0.73 metres backward, and hear it again. The source itself stayed fixed in the room. Compared with before your movement, is the source now closer or farther away?",
+      "question": "You hear a stationary sound source, then keep the same facing and move 1.50 metres backward, and hear it again. The source itself stayed fixed in the room. Compared with before your movement, is the source now closer or farther away?",
       "options": [
         "the source is closer than before",
         "the source is farther away than before"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav?v=596de9968796",
-        "audio/q011_b.wav?v=596de9968796"
+        "audio/q011_a.wav?v=e6ecc55b161e",
+        "audio/q011_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
     {
       "id": "q012",
       "type": "T2_translation",
-      "question": "You hear a stationary sound source, then keep the same facing and move 0.75 metres to your right, and hear it again. The source itself stayed fixed in the room. Compared with before your movement, is the source now closer or farther away?",
+      "question": "You hear a stationary sound source, then keep the same facing and move 1.50 metres forward, and hear it again. The source itself stayed fixed in the room. Compared with before your movement, is the source now closer or farther away?",
       "options": [
         "the source is closer than before",
         "the source is farther away than before"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "audio": [
-        "audio/q012_a.wav?v=596de9968796",
-        "audio/q012_b.wav?v=596de9968796"
+        "audio/q012_a.wav?v=e6ecc55b161e",
+        "audio/q012_b.wav?v=e6ecc55b161e"
       ],
       "timeline": []
     },
@@ -198,7 +198,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav?v=596de9968796"
+        "audio/q013_a.wav?v=e6ecc55b161e"
       ],
       "timeline": [
         {
@@ -249,7 +249,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav?v=596de9968796"
+        "audio/q014_a.wav?v=e6ecc55b161e"
       ],
       "timeline": [
         {
