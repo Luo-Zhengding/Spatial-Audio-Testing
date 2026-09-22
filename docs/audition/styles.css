@@ -58,6 +58,29 @@ h1 {
   letter-spacing: -0.04em;
 }
 
+.headphone-notice {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  max-width: 680px;
+  margin-top: 1.5rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(191, 219, 254, 0.45);
+  border-radius: 0.8rem;
+  color: #eff6ff;
+  background: rgba(15, 23, 42, 0.35);
+}
+
+.headphone-notice p {
+  margin: 0;
+}
+
+.headphone-icon {
+  flex: 0 0 auto;
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
 .intro {
   max-width: 680px;
   margin: 1.25rem 0 0;
