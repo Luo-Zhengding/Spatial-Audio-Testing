@@ -5,14 +5,14 @@ window.AUDITION_DATA = {
     {
       "id": "q001",
       "type": "T1",
-      "question": "You are listening to a single stationary sound source in a room. Is it on your left or on your right?",
+      "question": "The audio below contains one stationary source. Is the source on your left or on your right?",
       "options": [
         "on your left",
         "on your right"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=ec1fd94da4d4"
+        "audio/q001_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -22,14 +22,14 @@ window.AUDITION_DATA = {
     {
       "id": "q002",
       "type": "T1",
-      "question": "You are listening to a single stationary sound source in a room. Is it on your left or on your right?",
+      "question": "The audio below contains one stationary source. Is the source on your left or on your right?",
       "options": [
         "on your left",
         "on your right"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav?v=ec1fd94da4d4"
+        "audio/q002_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -39,16 +39,16 @@ window.AUDITION_DATA = {
     {
       "id": "q003",
       "type": "T1_distance",
-      "question": "You hear two recordings of the same sound source in the same direction and room, emitted at the same power. Is the source much closer in the first recording, much closer in the second recording, or at about the same distance in both?",
+      "question": "Recordings A and B use the same source, direction, room, and emitted power. Only the distance may differ. Is the source much closer in Recording A, much closer in Recording B, or at about the same distance in both?",
       "options": [
-        "the source is much closer in the first recording",
-        "the source is much closer in the second recording",
-        "the source is at about the same distance in both recordings"
+        "the source is much closer in Recording A",
+        "the source is much closer in Recording B",
+        "the source is at about the same distance in Recordings A and B"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav?v=ec1fd94da4d4",
-        "audio/q003_b.wav?v=ec1fd94da4d4"
+        "audio/q003_a.wav?v=33b4cb565e6a",
+        "audio/q003_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -58,16 +58,16 @@ window.AUDITION_DATA = {
     {
       "id": "q004",
       "type": "T1_distance",
-      "question": "You hear two recordings of the same sound source in the same direction and room, emitted at the same power. Is the source much closer in the first recording, much closer in the second recording, or at about the same distance in both?",
+      "question": "Recordings A and B use the same source, direction, room, and emitted power. Only the distance may differ. Is the source much closer in Recording A, much closer in Recording B, or at about the same distance in both?",
       "options": [
-        "the source is much closer in the first recording",
-        "the source is much closer in the second recording",
-        "the source is at about the same distance in both recordings"
+        "the source is much closer in Recording A",
+        "the source is much closer in Recording B",
+        "the source is at about the same distance in Recordings A and B"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q004_a.wav?v=ec1fd94da4d4",
-        "audio/q004_b.wav?v=ec1fd94da4d4"
+        "audio/q004_a.wav?v=33b4cb565e6a",
+        "audio/q004_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -77,16 +77,16 @@ window.AUDITION_DATA = {
     {
       "id": "q005",
       "type": "T1_loudness",
-      "question": "You hear two recordings of the same stationary source at exactly the same position in the same room. Only their playback gain may differ. Which recording is louder?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
       "options": [
-        "the first recording is louder",
-        "the two recordings are equally loud",
-        "the second recording is louder"
+        "Recording A is louder",
+        "Recordings A and B are equally loud",
+        "Recording B is louder"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav?v=ec1fd94da4d4",
-        "audio/q005_b.wav?v=ec1fd94da4d4"
+        "audio/q005_a.wav?v=33b4cb565e6a",
+        "audio/q005_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -96,16 +96,16 @@ window.AUDITION_DATA = {
     {
       "id": "q006",
       "type": "T1_loudness",
-      "question": "You hear two recordings of the same stationary source at exactly the same position in the same room. Only their playback gain may differ. Which recording is louder?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
       "options": [
-        "the first recording is louder",
-        "the two recordings are equally loud",
-        "the second recording is louder"
+        "Recording A is louder",
+        "Recordings A and B are equally loud",
+        "Recording B is louder"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav?v=ec1fd94da4d4",
-        "audio/q006_b.wav?v=ec1fd94da4d4"
+        "audio/q006_a.wav?v=33b4cb565e6a",
+        "audio/q006_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -115,15 +115,15 @@ window.AUDITION_DATA = {
     {
       "id": "q007",
       "type": "T2",
-      "question": "Recording A was made before you turned. You then turned 60 degrees to your left without walking, while the source stayed fixed. Recording B was made after you turned. In Recording B, is the source farther to your left or farther to your right than in Recording A?",
+      "question": "Recording A is before you turn. Turn 60 degrees left. Recording B is after the turn. The source does not move. In Recording B, is the source farther left or farther right?",
       "options": [
-        "further to your left than before",
-        "further to your right than before"
+        "the source is farther left in Recording B",
+        "the source is farther right in Recording B"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav?v=ec1fd94da4d4",
-        "audio/q007_b.wav?v=ec1fd94da4d4"
+        "audio/q007_a.wav?v=33b4cb565e6a",
+        "audio/q007_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -133,15 +133,15 @@ window.AUDITION_DATA = {
     {
       "id": "q008",
       "type": "T2",
-      "question": "Recording A was made before you turned. You then turned 60 degrees to your right without walking, while the source stayed fixed. Recording B was made after you turned. In Recording B, is the source farther to your left or farther to your right than in Recording A?",
+      "question": "Recording A is before you turn. Turn 60 degrees right. Recording B is after the turn. The source does not move. In Recording B, is the source farther left or farther right?",
       "options": [
-        "further to your left than before",
-        "further to your right than before"
+        "the source is farther left in Recording B",
+        "the source is farther right in Recording B"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav?v=ec1fd94da4d4",
-        "audio/q008_b.wav?v=ec1fd94da4d4"
+        "audio/q008_a.wav?v=33b4cb565e6a",
+        "audio/q008_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -151,14 +151,14 @@ window.AUDITION_DATA = {
     {
       "id": "q009",
       "type": "T2_fb",
-      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your left without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
+      "question": "Before you turned, the source was directly in front of you or behind you. You turned 30 degrees left. The source did not move. The audio below is after the turn. Where was the source before the turn?",
       "options": [
         "in front of you before the turn",
         "behind you before the turn"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=ec1fd94da4d4"
+        "audio/q009_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -168,14 +168,14 @@ window.AUDITION_DATA = {
     {
       "id": "q010",
       "type": "T2_fb",
-      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your right without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
+      "question": "Before you turned, the source was directly in front of you or behind you. You turned 30 degrees right. The source did not move. The audio below is after the turn. Where was the source before the turn?",
       "options": [
         "in front of you before the turn",
         "behind you before the turn"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=ec1fd94da4d4"
+        "audio/q010_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -185,15 +185,15 @@ window.AUDITION_DATA = {
     {
       "id": "q011",
       "type": "T2_translation",
-      "question": "Recording A was made before you moved. You then kept the same facing and moved 1.50 metres backward. Recording B was made after the move. The source stayed fixed in the room. In Recording B, is the source closer or farther away than in Recording A?",
+      "question": "Recording A is before you move. Keep facing the same direction and move 1.50 metres backward. Recording B is after the move. The source does not move. Is the source closer or farther away in Recording B?",
       "options": [
-        "the source is closer than before",
-        "the source is farther away than before"
+        "the source is closer in Recording B",
+        "the source is farther away in Recording B"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav?v=ec1fd94da4d4",
-        "audio/q011_b.wav?v=ec1fd94da4d4"
+        "audio/q011_a.wav?v=33b4cb565e6a",
+        "audio/q011_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -203,15 +203,15 @@ window.AUDITION_DATA = {
     {
       "id": "q012",
       "type": "T2_translation",
-      "question": "Recording A was made before you moved. You then kept the same facing and moved 1.50 metres forward. Recording B was made after the move. The source stayed fixed in the room. In Recording B, is the source closer or farther away than in Recording A?",
+      "question": "Recording A is before you move. Keep facing the same direction and move 1.50 metres forward. Recording B is after the move. The source does not move. Is the source closer or farther away in Recording B?",
       "options": [
-        "the source is closer than before",
-        "the source is farther away than before"
+        "the source is closer in Recording B",
+        "the source is farther away in Recording B"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q012_a.wav?v=ec1fd94da4d4",
-        "audio/q012_b.wav?v=ec1fd94da4d4"
+        "audio/q012_a.wav?v=33b4cb565e6a",
+        "audio/q012_b.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -221,20 +221,20 @@ window.AUDITION_DATA = {
     {
       "id": "q013",
       "type": "T3",
-      "question": "A stationary source began directly in front of or behind you and stayed fixed while you moved. Report its initial front/back position, whether the translation made it closer/farther, and whether it was finally on your left/right.",
+      "question": "The source starts directly in front of you or behind you and stays fixed. Follow the timeline. Choose the option that gives its start position, its distance change after the move, and its final side.",
       "options": [
-        "initially front; after translation closer; finally on the left",
-        "initially front; after translation closer; finally on the right",
-        "initially front; after translation farther; finally on the left",
-        "initially front; after translation farther; finally on the right",
-        "initially back; after translation closer; finally on the left",
-        "initially back; after translation closer; finally on the right",
-        "initially back; after translation farther; finally on the left",
-        "initially back; after translation farther; finally on the right"
+        "Start: front; after move: closer; end: left",
+        "Start: front; after move: closer; end: right",
+        "Start: front; after move: farther; end: left",
+        "Start: front; after move: farther; end: right",
+        "Start: back; after move: closer; end: left",
+        "Start: back; after move: closer; end: right",
+        "Start: back; after move: farther; end: left",
+        "Start: back; after move: farther; end: right"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav?v=ec1fd94da4d4"
+        "audio/q013_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [
         {
@@ -275,20 +275,20 @@ window.AUDITION_DATA = {
     {
       "id": "q014",
       "type": "T3",
-      "question": "A stationary source began directly in front of or behind you and stayed fixed while you moved. Report its initial front/back position, whether the translation made it closer/farther, and whether it was finally on your left/right.",
+      "question": "The source starts directly in front of you or behind you and stays fixed. Follow the timeline. Choose the option that gives its start position, its distance change after the move, and its final side.",
       "options": [
-        "initially front; after translation closer; finally on the left",
-        "initially front; after translation closer; finally on the right",
-        "initially front; after translation farther; finally on the left",
-        "initially front; after translation farther; finally on the right",
-        "initially back; after translation closer; finally on the left",
-        "initially back; after translation closer; finally on the right",
-        "initially back; after translation farther; finally on the left",
-        "initially back; after translation farther; finally on the right"
+        "Start: front; after move: closer; end: left",
+        "Start: front; after move: closer; end: right",
+        "Start: front; after move: farther; end: left",
+        "Start: front; after move: farther; end: right",
+        "Start: back; after move: closer; end: left",
+        "Start: back; after move: closer; end: right",
+        "Start: back; after move: farther; end: left",
+        "Start: back; after move: farther; end: right"
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav?v=ec1fd94da4d4"
+        "audio/q014_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [
         {
@@ -329,14 +329,14 @@ window.AUDITION_DATA = {
     {
       "id": "q015",
       "type": "T2_fb_guided",
-      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your left without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
+      "question": "Before you turned, the source was directly in front of you or behind you. You turned 30 degrees left. The source did not move. The audio below is after the turn. Where was the source before the turn?",
       "options": [
         "in front of you before the turn",
         "behind you before the turn"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q015_a.wav?v=ec1fd94da4d4"
+        "audio/q015_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -346,14 +346,14 @@ window.AUDITION_DATA = {
     {
       "id": "q016",
       "type": "T2_fb_guided",
-      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your right without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
+      "question": "Before you turned, the source was directly in front of you or behind you. You turned 30 degrees right. The source did not move. The audio below is after the turn. Where was the source before the turn?",
       "options": [
         "in front of you before the turn",
         "behind you before the turn"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q016_a.wav?v=ec1fd94da4d4"
+        "audio/q016_a.wav?v=33b4cb565e6a"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",

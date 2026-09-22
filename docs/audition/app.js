@@ -10,7 +10,10 @@
   const resetButton = document.querySelector("#reset-button");
   const result = document.querySelector("#result");
   const error = document.querySelector("#error");
-  let submitted = false;
+  const phaseStep = document.querySelector("#phase-step");
+  const phaseTitle = document.querySelector("#phase-title");
+  const phaseDescription = document.querySelector("#phase-description");
+  let phase = "unguided";
 
   if (!data || !Array.isArray(data.questions)) {
     error.textContent = "Quiz data could not be loaded.";
@@ -33,6 +36,11 @@
     const card = document.createElement("article");
     card.className = "question-card";
     card.id = question.id;
+    card.dataset.questionIndex = String(questionIndex);
+    card.dataset.phase = question.type === "T2_fb_guided"
+      ? "guided"
+      : "unguided";
+    card.hidden = card.dataset.phase === "guided";
 
     const audioPlayers = question.audio.map((source, clipIndex) => {
       const label = question.audio.length === 1
@@ -95,11 +103,17 @@
     return selected ? Number(selected.value) : null;
   }
 
+  function activeCards() {
+    if (phase === "submitted") return cards;
+    return cards.filter((card) => card.dataset.phase === phase);
+  }
+
   function updateProgress() {
-    const answered = cards.filter((card) => selectedIndex(card) !== null).length;
-    progress.textContent = `${answered} of ${cards.length} answered`;
-    progressFill.style.width = cards.length
-      ? `${(answered / cards.length) * 100}%`
+    const active = activeCards();
+    const answered = active.filter((card) => selectedIndex(card) !== null).length;
+    progress.textContent = `${answered} of ${active.length} answered`;
+    progressFill.style.width = active.length
+      ? `${(answered / active.length) * 100}%`
       : "0%";
     error.hidden = true;
   }
@@ -115,8 +129,9 @@
   questionsRoot.addEventListener("play", stopOtherAudio, true);
 
   submitButton.addEventListener("click", () => {
-    if (submitted) return;
-    const firstMissing = cards.find((card) => selectedIndex(card) === null);
+    if (phase === "submitted") return;
+    const active = activeCards();
+    const firstMissing = active.find((card) => selectedIndex(card) === null);
     if (firstMissing) {
       error.textContent = "Please answer every question before submitting.";
       error.hidden = false;
@@ -127,13 +142,49 @@
       return;
     }
 
-    submitted = true;
+    if (phase === "unguided") {
+      active.forEach((card) => {
+        card.querySelectorAll('input[type="radio"]').forEach((input) => {
+          input.disabled = true;
+        });
+        card.hidden = true;
+      });
+      cards
+        .filter((card) => card.dataset.phase === "guided")
+        .forEach((card) => { card.hidden = false; });
+      phase = "guided";
+      phaseStep.textContent = "Stage 2 of 2";
+      phaseTitle.textContent = "Guided comparison";
+      phaseDescription.textContent = (
+        "Now answer the paired front/back questions with a reasoning hint. " +
+        "Your Stage 1 answers are locked, and no correctness feedback has been shown."
+      );
+      submitButton.textContent = "Submit guided answers";
+      updateProgress();
+      phaseTitle.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
+    phase = "submitted";
     let correct = 0;
+    let unguidedFbCorrect = 0;
+    let unguidedFbTotal = 0;
+    let guidedFbCorrect = 0;
+    let guidedFbTotal = 0;
     cards.forEach((card, questionIndex) => {
       const question = data.questions[questionIndex];
       const chosen = selectedIndex(card);
       const isCorrect = chosen === question.answerIndex;
       if (isCorrect) correct += 1;
+      if (question.type === "T2_fb") {
+        unguidedFbTotal += 1;
+        if (isCorrect) unguidedFbCorrect += 1;
+      }
+      if (question.type === "T2_fb_guided") {
+        guidedFbTotal += 1;
+        if (isCorrect) guidedFbCorrect += 1;
+      }
+      card.hidden = false;
       card.classList.add(isCorrect
         ? "question-card--correct"
         : "question-card--incorrect");
@@ -152,16 +203,23 @@
       ? Math.round((correct / cards.length) * 100)
       : 0;
     result.innerHTML = `
-      <strong>${correct} / ${cards.length} correct</strong>
-      <span>${percentage}%</span>`;
+      <strong>${correct} / ${cards.length} correct (${percentage}%)</strong>
+      <span>Unguided T2-FB: ${unguidedFbCorrect}/${unguidedFbTotal}</span>
+      <span>Guided T2-FB: ${guidedFbCorrect}/${guidedFbTotal}</span>`;
     result.hidden = false;
+    phaseStep.textContent = "Results";
+    phaseTitle.textContent = "Answer review";
+    phaseDescription.textContent = (
+      "Correctness was revealed only after both stages were completed."
+    );
     submitButton.hidden = true;
     resetButton.hidden = false;
-    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    updateProgress();
+    result.scrollIntoView({ behavior: "smooth", block: "center" });
   });
 
   resetButton.addEventListener("click", () => {
-    submitted = false;
+    phase = "unguided";
     cards.forEach((card) => {
       card.classList.remove(
         "question-card--correct", "question-card--incorrect");
@@ -170,13 +228,22 @@
         input.disabled = false;
       });
       card.querySelector(".feedback").hidden = true;
+      card.hidden = card.dataset.phase === "guided";
     });
     result.hidden = true;
     submitButton.hidden = false;
+    submitButton.textContent = "Continue to guided questions";
     resetButton.hidden = true;
+    phaseStep.textContent = "Stage 1 of 2";
+    phaseTitle.textContent = "Unguided listening test";
+    phaseDescription.textContent = (
+      "Complete these questions without a reasoning hint. Your answers will be " +
+      "locked before the guided comparison begins."
+    );
     updateProgress();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
+  submitButton.textContent = "Continue to guided questions";
   updateProgress();
 })();

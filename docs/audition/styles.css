@@ -96,6 +96,33 @@ main {
   padding: 0 1.25rem 4rem;
 }
 
+.phase-header {
+  margin: 1.5rem 0 0.25rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--paper);
+}
+
+.phase-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.phase-header #phase-step {
+  margin-bottom: 0.25rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.phase-header h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+}
+
 .status-bar {
   position: sticky;
   z-index: 10;
