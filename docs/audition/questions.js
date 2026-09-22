@@ -1,6 +1,6 @@
 window.AUDITION_DATA = {
   "title": "AudioWorldSim Spatial Audio Quiz",
-  "questionCount": 14,
+  "questionCount": 16,
   "questions": [
     {
       "id": "q001",
@@ -12,9 +12,12 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=2cd8aa2cc742"
+        "audio/q001_a.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q002",
@@ -26,9 +29,12 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav?v=2cd8aa2cc742"
+        "audio/q002_a.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q003",
@@ -41,10 +47,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav?v=2cd8aa2cc742",
-        "audio/q003_b.wav?v=2cd8aa2cc742"
+        "audio/q003_a.wav?v=ec1fd94da4d4",
+        "audio/q003_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q004",
@@ -57,10 +66,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q004_a.wav?v=2cd8aa2cc742",
-        "audio/q004_b.wav?v=2cd8aa2cc742"
+        "audio/q004_a.wav?v=ec1fd94da4d4",
+        "audio/q004_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q005",
@@ -73,10 +85,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav?v=2cd8aa2cc742",
-        "audio/q005_b.wav?v=2cd8aa2cc742"
+        "audio/q005_a.wav?v=ec1fd94da4d4",
+        "audio/q005_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q006",
@@ -89,10 +104,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav?v=2cd8aa2cc742",
-        "audio/q006_b.wav?v=2cd8aa2cc742"
+        "audio/q006_a.wav?v=ec1fd94da4d4",
+        "audio/q006_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q007",
@@ -104,10 +122,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav?v=2cd8aa2cc742",
-        "audio/q007_b.wav?v=2cd8aa2cc742"
+        "audio/q007_a.wav?v=ec1fd94da4d4",
+        "audio/q007_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q008",
@@ -119,10 +140,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav?v=2cd8aa2cc742",
-        "audio/q008_b.wav?v=2cd8aa2cc742"
+        "audio/q008_a.wav?v=ec1fd94da4d4",
+        "audio/q008_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q009",
@@ -134,9 +158,12 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=2cd8aa2cc742"
+        "audio/q009_a.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "unguided",
+      "promptPairId": "web_ARNzJeq3xxb_09"
     },
     {
       "id": "q010",
@@ -148,9 +175,12 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=2cd8aa2cc742"
+        "audio/q010_a.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "unguided",
+      "promptPairId": "web_17DRP5sb8fy_10"
     },
     {
       "id": "q011",
@@ -162,10 +192,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav?v=2cd8aa2cc742",
-        "audio/q011_b.wav?v=2cd8aa2cc742"
+        "audio/q011_a.wav?v=ec1fd94da4d4",
+        "audio/q011_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q012",
@@ -177,10 +210,13 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q012_a.wav?v=2cd8aa2cc742",
-        "audio/q012_b.wav?v=2cd8aa2cc742"
+        "audio/q012_a.wav?v=ec1fd94da4d4",
+        "audio/q012_b.wav?v=ec1fd94da4d4"
       ],
-      "timeline": []
+      "timeline": [],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q013",
@@ -198,7 +234,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav?v=2cd8aa2cc742"
+        "audio/q013_a.wav?v=ec1fd94da4d4"
       ],
       "timeline": [
         {
@@ -231,7 +267,10 @@ window.AUDITION_DATA = {
           "label": "Turn 30° right",
           "kind": "action"
         }
-      ]
+      ],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
     },
     {
       "id": "q014",
@@ -249,7 +288,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav?v=2cd8aa2cc742"
+        "audio/q014_a.wav?v=ec1fd94da4d4"
       ],
       "timeline": [
         {
@@ -282,7 +321,44 @@ window.AUDITION_DATA = {
           "label": "Turn 45° left",
           "kind": "action"
         }
-      ]
+      ],
+      "reasoningHint": "",
+      "promptCondition": "",
+      "promptPairId": ""
+    },
+    {
+      "id": "q015",
+      "type": "T2_fb_guided",
+      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your left without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
+      "options": [
+        "in front of you before the turn",
+        "behind you before the turn"
+      ],
+      "answerIndex": 0,
+      "audio": [
+        "audio/q015_a.wav?v=ec1fd94da4d4"
+      ],
+      "timeline": [],
+      "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
+      "promptCondition": "guided",
+      "promptPairId": "web_ARNzJeq3xxb_09"
+    },
+    {
+      "id": "q016",
+      "type": "T2_fb_guided",
+      "question": "Before you turned, a stationary sound source was directly in front of you or directly behind you. You then turned 30 degrees to your right without walking, while the source stayed fixed. The audio below was recorded after you turned. Was the source in front of you or behind you before the turn?",
+      "options": [
+        "in front of you before the turn",
+        "behind you before the turn"
+      ],
+      "answerIndex": 1,
+      "audio": [
+        "audio/q016_a.wav?v=ec1fd94da4d4"
+      ],
+      "timeline": [],
+      "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
+      "promptCondition": "guided",
+      "promptPairId": "web_17DRP5sb8fy_10"
     }
   ]
 };

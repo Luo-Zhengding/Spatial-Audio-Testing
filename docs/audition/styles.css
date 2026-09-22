@@ -184,6 +184,22 @@ h2 {
   line-height: 1.5;
 }
 
+.reasoning-hint {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7rem;
+  margin: 0 0 1.35rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #f4c56a;
+  border-radius: 0.65rem;
+  color: #713f12;
+  background: #fffbeb;
+}
+
+.reasoning-hint strong {
+  white-space: nowrap;
+}
+
 .timeline {
   display: flex;
   gap: 0.35rem;
@@ -397,6 +413,11 @@ footer {
 
   .timeline {
     flex-direction: column;
+  }
+
+  .reasoning-hint {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 
   .timeline-stage {

@@ -65,12 +65,20 @@
         </div>`
       : "";
 
+    const reasoningHint = question.reasoningHint
+      ? `<div class="reasoning-hint">
+          <strong>Reasoning hint</strong>
+          <span>${escapeHtml(question.reasoningHint)}</span>
+        </div>`
+      : "";
+
     card.innerHTML = `
       <div class="question-meta">
         <span>Question ${questionIndex + 1}</span>
         <span class="type-badge">${escapeHtml(question.type)}</span>
       </div>
       <h2>${escapeHtml(question.question)}</h2>
+      ${reasoningHint}
       ${timeline}
       <div class="audio-list">${audioPlayers}</div>
       <fieldset>
