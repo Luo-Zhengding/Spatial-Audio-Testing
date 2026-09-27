@@ -37,9 +37,10 @@
     card.className = "question-card";
     card.id = question.id;
     card.dataset.questionIndex = String(questionIndex);
-    card.dataset.phase = question.type === "T2_fb_guided"
+    card.dataset.phase = question.promptCondition === "guided"
       ? "guided"
       : "unguided";
+    card.dataset.scoreRole = question.scoreRole || "diagnostic";
     card.hidden = card.dataset.phase === "guided";
 
     const audioPlayers = question.audio.map((source, clipIndex) => {
@@ -83,7 +84,9 @@
     card.innerHTML = `
       <div class="question-meta">
         <span>Question ${questionIndex + 1}</span>
-        <span class="type-badge">${escapeHtml(question.type)}</span>
+        <span class="type-badge">${escapeHtml(question.type)} ·
+          ${escapeHtml(question.scoreRoleLabel || question.scoreRole || "Diagnostic")}
+        </span>
       </div>
       <h2>${escapeHtml(question.question)}</h2>
       ${reasoningHint}
@@ -142,7 +145,8 @@
       return;
     }
 
-    if (phase === "unguided") {
+    const guidedCards = cards.filter((card) => card.dataset.phase === "guided");
+    if (phase === "unguided" && guidedCards.length) {
       active.forEach((card) => {
         card.querySelectorAll('input[type="radio"]').forEach((input) => {
           input.disabled = true;
@@ -166,24 +170,23 @@
     }
 
     phase = "submitted";
-    let correct = 0;
-    let unguidedFbCorrect = 0;
-    let unguidedFbTotal = 0;
-    let guidedFbCorrect = 0;
-    let guidedFbTotal = 0;
+    const scoredRows = [];
+    const componentRows = {
+      initial_front_back: [],
+      translation_range: [],
+      final_side: [],
+    };
     cards.forEach((card, questionIndex) => {
       const question = data.questions[questionIndex];
       const chosen = selectedIndex(card);
       const isCorrect = chosen === question.answerIndex;
-      if (isCorrect) correct += 1;
-      if (question.type === "T2_fb") {
-        unguidedFbTotal += 1;
-        if (isCorrect) unguidedFbCorrect += 1;
-      }
-      if (question.type === "T2_fb_guided") {
-        guidedFbTotal += 1;
-        if (isCorrect) guidedFbCorrect += 1;
-      }
+      scoredRows.push({ question, isCorrect });
+      const chosenComponents = (question.optionComponents || [])[chosen] || {};
+      Object.entries(question.answerComponents || {}).forEach(([name, answer]) => {
+        if (componentRows[name]) {
+          componentRows[name].push(chosenComponents[name] === answer);
+        }
+      });
       card.hidden = false;
       card.classList.add(isCorrect
         ? "question-card--correct"
@@ -199,13 +202,41 @@
            Correct answer: ${escapeHtml(question.options[question.answerIndex])}`;
     });
 
-    const percentage = cards.length
-      ? Math.round((correct / cards.length) * 100)
-      : 0;
+    const summary = (rows) => {
+      const correct = rows.filter((row) => row.isCorrect).length;
+      const percentage = rows.length ? Math.round((correct / rows.length) * 100) : 0;
+      return `${correct}/${rows.length} (${percentage}%)`;
+    };
+    const coreRows = scoredRows.filter(
+      (row) => row.question.includeInCoreScore);
+    const roleGroups = new Map();
+    scoredRows.forEach((row) => {
+      const key = row.question.scoreRole || "diagnostic";
+      if (!roleGroups.has(key)) roleGroups.set(key, []);
+      roleGroups.get(key).push(row);
+    });
+    const roleLines = Array.from(roleGroups.entries())
+      .filter(([role]) => role !== "core")
+      .map(([, rows]) => {
+      const label = rows[0].question.scoreRoleLabel || rows[0].question.scoreRole;
+      return `<span>${escapeHtml(label)}: ${summary(rows)}</span>`;
+    }).join("");
+    const componentLines = Object.entries(componentRows)
+      .filter(([, values]) => values.length)
+      .map(([name, values]) => {
+        const correct = values.filter(Boolean).length;
+        const label = name.replaceAll("_", " ");
+        return `<span>T3 ${escapeHtml(label)}: ${correct}/${values.length}</span>`;
+      }).join("");
+    const coreLine = coreRows.length
+      ? `Core audio-grounded score: ${summary(coreRows)}`
+      : "Core audio-grounded score: no validated core item in this demo";
     result.innerHTML = `
-      <strong>${correct} / ${cards.length} correct (${percentage}%)</strong>
-      <span>Unguided T2-FB: ${unguidedFbCorrect}/${unguidedFbTotal}</span>
-      <span>Guided T2-FB: ${guidedFbCorrect}/${guidedFbTotal}</span>`;
+      <strong>${coreLine}</strong>
+      ${roleLines}
+      ${componentLines}
+      <small>Demo results are grouped by reporting role. Baselines, diagnostics,
+        text reasoning and guided prompts are excluded from the core score.</small>`;
     result.hidden = false;
     phaseStep.textContent = "Results";
     phaseTitle.textContent = "Answer review";

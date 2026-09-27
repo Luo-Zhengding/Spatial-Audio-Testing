@@ -12,12 +12,17 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=33b4cb565e6a"
+        "audio/q001_a.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "perception_baseline",
+      "scoreRoleLabel": "Perception baseline",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q002",
@@ -29,12 +34,17 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q002_a.wav?v=33b4cb565e6a"
+        "audio/q002_a.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "perception_baseline",
+      "scoreRoleLabel": "Perception baseline",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q003",
@@ -47,13 +57,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q003_a.wav?v=33b4cb565e6a",
-        "audio/q003_b.wav?v=33b4cb565e6a"
+        "audio/q003_a.wav?v=23b9eb84477b",
+        "audio/q003_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "distance_baseline",
+      "scoreRoleLabel": "Distance baseline",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q004",
@@ -66,13 +81,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q004_a.wav?v=33b4cb565e6a",
-        "audio/q004_b.wav?v=33b4cb565e6a"
+        "audio/q004_a.wav?v=23b9eb84477b",
+        "audio/q004_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "distance_baseline",
+      "scoreRoleLabel": "Distance baseline",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q005",
@@ -85,13 +105,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q005_a.wav?v=33b4cb565e6a",
-        "audio/q005_b.wav?v=33b4cb565e6a"
+        "audio/q005_a.wav?v=23b9eb84477b",
+        "audio/q005_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "control",
+      "scoreRoleLabel": "Control",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q006",
@@ -104,13 +129,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q006_a.wav?v=33b4cb565e6a",
-        "audio/q006_b.wav?v=33b4cb565e6a"
+        "audio/q006_a.wav?v=23b9eb84477b",
+        "audio/q006_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "control",
+      "scoreRoleLabel": "Control",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q007",
@@ -122,13 +152,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q007_a.wav?v=33b4cb565e6a",
-        "audio/q007_b.wav?v=33b4cb565e6a"
+        "audio/q007_a.wav?v=23b9eb84477b",
+        "audio/q007_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "text_reasoning",
+      "scoreRoleLabel": "Text ego-motion reasoning",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q008",
@@ -140,13 +175,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q008_a.wav?v=33b4cb565e6a",
-        "audio/q008_b.wav?v=33b4cb565e6a"
+        "audio/q008_a.wav?v=23b9eb84477b",
+        "audio/q008_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "text_reasoning",
+      "scoreRoleLabel": "Text ego-motion reasoning",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q009",
@@ -158,12 +198,17 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=33b4cb565e6a"
+        "audio/q009_a.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "unguided",
-      "promptPairId": "web_ARNzJeq3xxb_09"
+      "promptPairId": "web_ARNzJeq3xxb_09",
+      "scoreRole": "core",
+      "scoreRoleLabel": "Core audio-grounded score",
+      "includeInCoreScore": true,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q010",
@@ -175,12 +220,17 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=33b4cb565e6a"
+        "audio/q010_a.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "unguided",
-      "promptPairId": "web_17DRP5sb8fy_10"
+      "promptPairId": "web_17DRP5sb8fy_10",
+      "scoreRole": "core",
+      "scoreRoleLabel": "Core audio-grounded score",
+      "includeInCoreScore": true,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q011",
@@ -192,13 +242,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q011_a.wav?v=33b4cb565e6a",
-        "audio/q011_b.wav?v=33b4cb565e6a"
+        "audio/q011_a.wav?v=23b9eb84477b",
+        "audio/q011_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "distance_baseline",
+      "scoreRoleLabel": "Distance baseline",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q012",
@@ -210,13 +265,18 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q012_a.wav?v=33b4cb565e6a",
-        "audio/q012_b.wav?v=33b4cb565e6a"
+        "audio/q012_a.wav?v=23b9eb84477b",
+        "audio/q012_b.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "distance_baseline",
+      "scoreRoleLabel": "Distance baseline",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q013",
@@ -234,7 +294,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q013_a.wav?v=33b4cb565e6a"
+        "audio/q013_a.wav?v=23b9eb84477b"
       ],
       "timeline": [
         {
@@ -270,7 +330,57 @@ window.AUDITION_DATA = {
       ],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "diagnostic",
+      "scoreRoleLabel": "Diagnostic",
+      "includeInCoreScore": false,
+      "answerComponents": {
+        "initial_front_back": "front",
+        "translation_range": "farther",
+        "final_side": "left"
+      },
+      "optionComponents": [
+        {
+          "initial_front_back": "front",
+          "translation_range": "closer",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "front",
+          "translation_range": "closer",
+          "final_side": "right"
+        },
+        {
+          "initial_front_back": "front",
+          "translation_range": "farther",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "front",
+          "translation_range": "farther",
+          "final_side": "right"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "closer",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "closer",
+          "final_side": "right"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "farther",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "farther",
+          "final_side": "right"
+        }
+      ]
     },
     {
       "id": "q014",
@@ -288,7 +398,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q014_a.wav?v=33b4cb565e6a"
+        "audio/q014_a.wav?v=23b9eb84477b"
       ],
       "timeline": [
         {
@@ -324,7 +434,57 @@ window.AUDITION_DATA = {
       ],
       "reasoningHint": "",
       "promptCondition": "",
-      "promptPairId": ""
+      "promptPairId": "",
+      "scoreRole": "diagnostic",
+      "scoreRoleLabel": "Diagnostic",
+      "includeInCoreScore": false,
+      "answerComponents": {
+        "initial_front_back": "back",
+        "translation_range": "closer",
+        "final_side": "left"
+      },
+      "optionComponents": [
+        {
+          "initial_front_back": "front",
+          "translation_range": "closer",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "front",
+          "translation_range": "closer",
+          "final_side": "right"
+        },
+        {
+          "initial_front_back": "front",
+          "translation_range": "farther",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "front",
+          "translation_range": "farther",
+          "final_side": "right"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "closer",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "closer",
+          "final_side": "right"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "farther",
+          "final_side": "left"
+        },
+        {
+          "initial_front_back": "back",
+          "translation_range": "farther",
+          "final_side": "right"
+        }
+      ]
     },
     {
       "id": "q015",
@@ -336,12 +496,17 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q015_a.wav?v=33b4cb565e6a"
+        "audio/q015_a.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
       "promptCondition": "guided",
-      "promptPairId": "web_ARNzJeq3xxb_09"
+      "promptPairId": "web_ARNzJeq3xxb_09",
+      "scoreRole": "prompt_control",
+      "scoreRoleLabel": "Guided prompt control",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     },
     {
       "id": "q016",
@@ -353,12 +518,17 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q016_a.wav?v=33b4cb565e6a"
+        "audio/q016_a.wav?v=23b9eb84477b"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
       "promptCondition": "guided",
-      "promptPairId": "web_17DRP5sb8fy_10"
+      "promptPairId": "web_17DRP5sb8fy_10",
+      "scoreRole": "prompt_control",
+      "scoreRoleLabel": "Guided prompt control",
+      "includeInCoreScore": false,
+      "answerComponents": {},
+      "optionComponents": []
     }
   ]
 };

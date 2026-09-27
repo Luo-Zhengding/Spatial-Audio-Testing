@@ -92,6 +92,15 @@ h1 {
   font-size: 1.08rem;
 }
 
+.demo-notice {
+  max-width: 680px;
+  margin: 0.85rem 0 0;
+  padding-left: 0.85rem;
+  border-left: 3px solid #93c5fd;
+  color: #bfdbfe;
+  font-size: 0.92rem;
+}
+
 main {
   padding: 0 1.25rem 4rem;
 }
@@ -197,11 +206,13 @@ main {
 }
 
 .type-badge {
+  max-width: 70%;
   padding: 0.2rem 0.55rem;
   border-radius: 999px;
   color: #1e40af;
   background: #dbeafe;
   letter-spacing: 0;
+  text-align: right;
   text-transform: none;
 }
 
@@ -389,15 +400,21 @@ fieldset {
 }
 
 .result {
-  display: flex;
-  gap: 0.75rem;
-  align-items: baseline;
+  display: grid;
+  gap: 0.35rem;
   margin-left: auto;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 .result strong {
-  font-size: 1.45rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.result small {
+  max-width: 42rem;
+  margin-top: 0.35rem;
+  color: #cbd5e1;
 }
 
 footer {
