@@ -23,6 +23,22 @@
     return;
   }
 
+  // Present the example from simple judgments to multi-stage reasoning.
+  // Stable sorting preserves the generated random order within each task.
+  // Keep IDs intact so audio, answers and private keys retain their mapping.
+  const taskOrder = [
+    "T1_loudness", "T1", "T1_distance", "T2_translation",
+    "T2_turn_inference", "T2_fb", "T3", "T2_fb_guided",
+  ];
+  const taskRank = (question) => {
+    if (question.promptCondition === "guided" || question.type === "T2_fb_guided") {
+      return taskOrder.length;
+    }
+    const rank = taskOrder.indexOf(question.type);
+    return rank < 0 ? taskOrder.length - 1 : rank;
+  };
+  data.questions.sort((a, b) => taskRank(a) - taskRank(b));
+
   document.title = data.title;
   title.textContent = data.title;
   const hasGuided = data.questions.some((q) => q.promptCondition === "guided");
