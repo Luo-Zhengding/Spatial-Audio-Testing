@@ -13,7 +13,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q001_a.wav?v=f0463fb54286"
+        "audio/q001_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -42,7 +42,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 4,
       "audio": [
-        "audio/q002_a.wav?v=f0463fb54286"
+        "audio/q002_a.wav?v=a0869ff6311f"
       ],
       "timeline": [
         {
@@ -141,7 +141,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q003_a.wav?v=f0463fb54286"
+        "audio/q003_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -164,7 +164,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q004_a.wav?v=f0463fb54286"
+        "audio/q004_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -180,16 +180,16 @@ window.AUDITION_DATA = {
     {
       "id": "q005",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q005_a.wav?v=f0463fb54286",
-        "audio/q005_b.wav?v=f0463fb54286"
+        "audio/q005_a.wav?v=a0869ff6311f",
+        "audio/q005_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -212,7 +212,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q006_a.wav?v=f0463fb54286"
+        "audio/q006_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -235,7 +235,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q007_a.wav?v=f0463fb54286"
+        "audio/q007_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -258,7 +258,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q008_a.wav?v=f0463fb54286"
+        "audio/q008_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -281,7 +281,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q009_a.wav?v=f0463fb54286"
+        "audio/q009_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -304,8 +304,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q010_a.wav?v=f0463fb54286",
-        "audio/q010_b.wav?v=f0463fb54286"
+        "audio/q010_a.wav?v=a0869ff6311f",
+        "audio/q010_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -321,16 +321,16 @@ window.AUDITION_DATA = {
     {
       "id": "q011",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q011_a.wav?v=f0463fb54286",
-        "audio/q011_b.wav?v=f0463fb54286"
+        "audio/q011_a.wav?v=a0869ff6311f",
+        "audio/q011_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -354,8 +354,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q012_a.wav?v=f0463fb54286",
-        "audio/q012_b.wav?v=f0463fb54286"
+        "audio/q012_a.wav?v=a0869ff6311f",
+        "audio/q012_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -378,7 +378,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q013_a.wav?v=f0463fb54286"
+        "audio/q013_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -401,7 +401,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q014_a.wav?v=f0463fb54286"
+        "audio/q014_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -417,16 +417,16 @@ window.AUDITION_DATA = {
     {
       "id": "q015",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q015_a.wav?v=f0463fb54286",
-        "audio/q015_b.wav?v=f0463fb54286"
+        "audio/q015_a.wav?v=a0869ff6311f",
+        "audio/q015_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -449,8 +449,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q016_a.wav?v=f0463fb54286",
-        "audio/q016_b.wav?v=f0463fb54286"
+        "audio/q016_a.wav?v=a0869ff6311f",
+        "audio/q016_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -473,8 +473,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q017_a.wav?v=f0463fb54286",
-        "audio/q017_b.wav?v=f0463fb54286"
+        "audio/q017_a.wav?v=a0869ff6311f",
+        "audio/q017_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -497,8 +497,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q018_a.wav?v=f0463fb54286",
-        "audio/q018_b.wav?v=f0463fb54286"
+        "audio/q018_a.wav?v=a0869ff6311f",
+        "audio/q018_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -521,7 +521,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q019_a.wav?v=f0463fb54286"
+        "audio/q019_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -537,16 +537,16 @@ window.AUDITION_DATA = {
     {
       "id": "q020",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q020_a.wav?v=f0463fb54286",
-        "audio/q020_b.wav?v=f0463fb54286"
+        "audio/q020_a.wav?v=a0869ff6311f",
+        "audio/q020_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -569,7 +569,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q021_a.wav?v=f0463fb54286"
+        "audio/q021_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -592,8 +592,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q022_a.wav?v=f0463fb54286",
-        "audio/q022_b.wav?v=f0463fb54286"
+        "audio/q022_a.wav?v=a0869ff6311f",
+        "audio/q022_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -622,7 +622,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q023_a.wav?v=f0463fb54286"
+        "audio/q023_a.wav?v=a0869ff6311f"
       ],
       "timeline": [
         {
@@ -714,16 +714,16 @@ window.AUDITION_DATA = {
     {
       "id": "q024",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q024_a.wav?v=f0463fb54286",
-        "audio/q024_b.wav?v=f0463fb54286"
+        "audio/q024_a.wav?v=a0869ff6311f",
+        "audio/q024_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -746,8 +746,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q025_a.wav?v=f0463fb54286",
-        "audio/q025_b.wav?v=f0463fb54286"
+        "audio/q025_a.wav?v=a0869ff6311f",
+        "audio/q025_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -770,7 +770,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q026_a.wav?v=f0463fb54286"
+        "audio/q026_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -786,16 +786,16 @@ window.AUDITION_DATA = {
     {
       "id": "q027",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q027_a.wav?v=f0463fb54286",
-        "audio/q027_b.wav?v=f0463fb54286"
+        "audio/q027_a.wav?v=a0869ff6311f",
+        "audio/q027_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -818,8 +818,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q028_a.wav?v=f0463fb54286",
-        "audio/q028_b.wav?v=f0463fb54286"
+        "audio/q028_a.wav?v=a0869ff6311f",
+        "audio/q028_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -842,7 +842,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q029_a.wav?v=f0463fb54286"
+        "audio/q029_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -865,7 +865,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q030_a.wav?v=f0463fb54286"
+        "audio/q030_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -888,7 +888,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q031_a.wav?v=f0463fb54286"
+        "audio/q031_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -911,8 +911,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q032_a.wav?v=f0463fb54286",
-        "audio/q032_b.wav?v=f0463fb54286"
+        "audio/q032_a.wav?v=a0869ff6311f",
+        "audio/q032_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -928,16 +928,16 @@ window.AUDITION_DATA = {
     {
       "id": "q033",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q033_a.wav?v=f0463fb54286",
-        "audio/q033_b.wav?v=f0463fb54286"
+        "audio/q033_a.wav?v=a0869ff6311f",
+        "audio/q033_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -960,7 +960,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q034_a.wav?v=f0463fb54286"
+        "audio/q034_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -983,7 +983,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 1,
       "audio": [
-        "audio/q035_a.wav?v=f0463fb54286"
+        "audio/q035_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "If the sound is on the same side as your turn, the source began behind you. If it is on the opposite side, the source began in front of you.",
@@ -1006,7 +1006,7 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q036_a.wav?v=f0463fb54286"
+        "audio/q036_a.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -1029,8 +1029,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 0,
       "audio": [
-        "audio/q037_a.wav?v=f0463fb54286",
-        "audio/q037_b.wav?v=f0463fb54286"
+        "audio/q037_a.wav?v=a0869ff6311f",
+        "audio/q037_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -1046,16 +1046,16 @@ window.AUDITION_DATA = {
     {
       "id": "q038",
       "type": "T1_loudness",
-      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is louder, or are they equally loud?",
+      "question": "Recordings A and B use the same source at the same position. Only the playback volume may differ. Which recording is noticeably louder, or are they about the same loudness? Small or barely noticeable differences count as about the same loudness.",
       "options": [
-        "Recording A is louder",
-        "Recordings A and B are equally loud",
-        "Recording B is louder"
+        "Recording A is noticeably louder",
+        "Recordings A and B are about the same loudness",
+        "Recording B is noticeably louder"
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q038_a.wav?v=f0463fb54286",
-        "audio/q038_b.wav?v=f0463fb54286"
+        "audio/q038_a.wav?v=a0869ff6311f",
+        "audio/q038_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
@@ -1079,8 +1079,8 @@ window.AUDITION_DATA = {
       ],
       "answerIndex": 2,
       "audio": [
-        "audio/q039_a.wav?v=f0463fb54286",
-        "audio/q039_b.wav?v=f0463fb54286"
+        "audio/q039_a.wav?v=a0869ff6311f",
+        "audio/q039_b.wav?v=a0869ff6311f"
       ],
       "timeline": [],
       "reasoningHint": "",
