@@ -180,6 +180,8 @@
         .filter((card) => card.dataset.phase === "guided")
         .forEach((card) => { card.hidden = false; });
       phase = "guided";
+      phaseTitle.hidden = false;
+      phaseDescription.hidden = false;
       phaseStep.textContent = "Stage 2 of 2";
       phaseTitle.textContent = "Guided comparison";
       phaseDescription.textContent = (
@@ -193,6 +195,8 @@
     }
 
     phase = "submitted";
+    phaseTitle.hidden = false;
+    phaseDescription.hidden = false;
     const answers = Object.fromEntries(cards.map((card, i) => [data.questions[i].id, selectedIndex(card)]));
     if (data.blind) {
       responseFile = data.questions.map((q) => JSON.stringify({ id: q.id, answer_index: answers[q.id] })).join("\n") + "\n";
@@ -284,11 +288,10 @@
     submitButton.textContent = hasGuided ? "Continue to guided questions" : "Submit answers";
     resetButton.hidden = true;
     phaseStep.textContent = hasGuided ? "Stage 1 of 2" : "Listening test";
-    phaseTitle.textContent = "Unguided listening test";
-    phaseDescription.textContent = (
-      "Complete these questions without a reasoning hint. Your answers will be " +
-      "locked before the guided comparison begins."
-    );
+    phaseTitle.textContent = "";
+    phaseDescription.textContent = "";
+    phaseTitle.hidden = true;
+    phaseDescription.hidden = true;
     updateProgress();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
@@ -304,7 +307,6 @@
   submitButton.textContent = hasGuided ? "Continue to guided questions" : "Submit answers";
   if (!hasGuided) {
     phaseStep.textContent = "Listening test";
-    phaseDescription.textContent = "Listen to the recordings and answer every question before submitting.";
   }
   updateProgress();
 })();
